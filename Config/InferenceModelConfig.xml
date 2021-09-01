@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InferenceModelConfig>
+	<Models>
+		<Model name="Contabilidad">
+			<Field name="Modo" type="Document">1</Field>
+			<Field name="Entrada" type="Document">2</Field>
+			<Field name="Salida" type="Document">3</Field>
+			<Field name="Code" type="Document">4</Field>
+			<Field name="name" type="Document">5</Field>
+			<Field name="datecreated" type="Document">6</Field>
+			<Field name="datemodified" type="Document">7</Field>
+			<Field name="author" type="Document">8</Field>
+			<Field name="NombreFichero" type="Document">9</Field>
+			<Field name="contentid" type="Document">10</Field>
+			<Field name="mimetype" type="Document">11</Field>
+			<Field name="size" type="Document">12</Field>
+			<Field name="path" type="Document">13</Field>
+			<Field name="area" type="Document">14</Field>
+			<Field name="CodigoTipoDocumental" type="Document">15</Field>
+			<Field name="NombreTipoDocumental" type="Document">16</Field>
+			<Field name="CodigoPadre" type="Document">17</Field>
+			<Field name="NombrePadre" type="Document">18</Field>
+			<Field name="CodigoAbuelo" type="Document">19</Field>
+			<Field name="NombreAbuelo" type="Document">20</Field>
+			<Field name="en_expte" type="Document">21</Field>
+			<Field name="CodigoSerieDocumental" type="Document">22</Field>
+			<Field name="NombreSerieDocumental" type="Document">23</Field>
+			<Field name="OrgInteresadaRemitente" type="Organization">Doc.DatosRetDisp.Ofiprod</Field>
+			<Field name="OrgInteresadaDestinatario" type="Organization">Doc.DatosRetDisp.Ofiprod</Field>
+			<Field name="DependenciaResponsable" type="Organization">Doc.DatosRetDisp.Ofiprod</Field>
+		</Model>
+		<Model name="favorabilidad pqrs">
+			<Field name="ExpedienteCOD" type="Document">22</Field>
+			<Field name="USUARIO_RECEPCION" type="Document">8</Field>
+			<Field name="RUTA2" type="Document">13</Field>
+			<Field name="Archivo" type="Document">13</Field>
+			<Field name="DPTO_TRANSFERIDO" type="Organization"></Field>
+			<Field name="RadicadoCOD" type="Number"></Field>
+			<Field name="En_Abox?" type="Boolean"></Field>
+			<Field name="RadicadoFecha" type="Date"></Field>
+			<Field name="ReclamoID" type="Number"></Field>
+			<Field name="Poliza" type="Number"></Field>
+			<Field name="RecepcionVia" type="Text"></Field>
+			<Field name="MotivoTipoPQR" type="Text"></Field>
+			<Field name="TipoPQR" type="Text"></Field>
+			<Field name="Area" type="Document">14</Field>
+			<Field name="DESCRIPCION_CORTA" type="Text"></Field>
+			<Field name="OBSERVACION_01" type="Text"></Field>
+			<Field name="OBSERVACION_02" type="Text"></Field>
+			<Field name="OBSERVACION_03" type="Text"></Field>
+			<Field name="CLAVE_SOLUCION" type="Text"></Field>
+			<Field name="PERIODO_FACTURADO" type="Text"></Field>
+			<Field name="AÑO_FACTURADO" type="Date"></Field>
+			<Field name="NUMERO_REGISTRO" type="Number"></Field>
+			<Field name="FECHA_REGISTRO" type="Date"></Field>
+			<Field name="FECHA_VENCIMTO" type="Date"></Field>
+			<Field name="IMPORTE" type="Number"></Field>
+			<Field name="FECHA_RECEPCION" type="Date"></Field>
+			<Field name="HORA_RECEPCION" type="Date"></Field>
+			<Field name="FECHA_INSPECCION" type="Date"></Field>
+			<Field name="INSPECCION?" type="Boolean"></Field>
+			<Field name="Imperceptible" type="Text"></Field>
+			<Field name="Estado_ult_novedad" type="Number"></Field>
+			<Field name="Tipo_Solucion_COD" type="Number"></Field>
+			<Field name="Fecha_Solucion" type="Date"></Field>
+			<Field name="Fecha_Notificacion" type="Date"></Field>
+			<Field name="Fecha_Vencimiento" type="Date"></Field>
+			<Field name="Fecha_Venc_interno" type="Date"></Field>
+			<Field name="Registro_Historico" type="Boolean"></Field>
+			<Field name="DPTO_SOLUCION" type="Text"></Field>
+			<Field name="TIPO_SOLUCION" type="Number"></Field>
+			<Field name="VIA_SOLUCION" type="Text"></Field>
+			<Field name="OBSER_SOLUCION_1" type="Text"></Field>
+			<Field name="OBSER_SOLUCION_2" type="Text"></Field>
+			<Field name="OBSER_SOLUCION_3" type="Text"></Field>
+			<Field name="USUARIO_SOLUCION" type="Text"></Field>
+			<Field name="NUMERO" type="Number"></Field>
+			<Field name="RUTA COMBINADA" type="Document">13</Field>
+		</Model>
+	</Models>          
+</InferenceModelConfig>

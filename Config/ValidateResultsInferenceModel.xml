@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Decision>
+	<Models>
+		<Model Name="Contabilidad">
+			<Metadata Code="Doc.DatosRetDisp.ComentEntrega">
+				<Condicion Confiable="100,110,200" NoConfiable="400,410">Imanol</Condicion>
+				<Condicion Confiable="530,100" NoConfiable="510">hello</Condicion>
+				
+			</Metadata>
+			<Metadata Code="Doc.Remitente.Comentarios">
+				<Condicion Confiable="510,530" NoConfiable="otros">Imanol</Condicion>
+			</Metadata>
+		</Model>
+	</Models>
+</Decision>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EquivalenceInferenceModel>
+    <Models>
+        <Model name="PQRS" Supervision="Selection">
+            <Category value="1000" name="1000-GERENCIA GENERAL">1000.01</Category>
+            <Category value="1001" name="110-DEP. JURIDICO">1001.01</Category>
+            <Category value="1100" name="1100-GERENCIA CORPORATIVA">1100.01</Category>
+            <Category value="1103" name="1103-DEP. GESTION SOCIAL">1103.01</Category>
+            <Category value="1200" name="1200-GERENCIA ADMINISTRATIVA">1200.01</Category>
+            <Category value="1201" name="1201-DEP. DE COMPRAS">1201.01</Category>
+            <Category value="1202" name="1202-DEP. DE SERVICIOS GENERALES">1202.01</Category>
+            <Category value="1210" name="1210-SUBGER. CONTRATACION PROYECTOS">1210.01</Category>
+            <Category value="1211" name="1211-DEP. DE CONTRATACION DE PROYECTOS">1211.01</Category>
+            <Category value="1300" name="1300-GERENCIA FINANCIERA">1300.01</Category>
+            <Category value="1301" name="1301-DEP. DE CONTABILIDAD">1301.01</Category>
+            <Category value="1302" name="1302-DEP. DE TESORERIA">1302.01</Category>
+            <Category value="1304" name="1304-NOMINA">1304.01</Category>
+            <Category value="1400" name="1400-GERENCIA DE RELACIONES INSTITUCIONALES">1400.01</Category>
+            <Category value="1401" name="1401-SEGURIDAD FISICA">1401.01</Category>
+            <Category value="1402" name="1402-COMUNICACIONES">1402.01</Category>
+            <Category value="1500" name="1500-GERENCIA COMERCIAL">1500.01</Category>
+            <Category value="1501" name="1501-COORDINACION DE CONTRATACION DE SERVICIOS">1501.01</Category>
+            <Category value="1502" name="1502-DEP. DE FACTURACION">1502.01</Category>
+            <Category value="1505" name="1505-DEP. DE GESTION DE COBROS">1505.01</Category>
+            <Category value="1506" name="1506-DEP. DE ATENCION AL USUARIO">1506.01</Category>
+            <Category value="1600" name="1600-GERENCIA MEDIO AMBIENTE Y CALIDAD">1600.01</Category>
+            <Category value="1601" name="1601-DEP SISTEMAS DE GESTION INTEGRAL">1601.01</Category>
+            <Category value="1602" name="1602-DEP LABORATORIO CALIDAD DE AGUAS">1602.01</Category>
+            <Category value="1700" name="1700-GERENCIA TECNICA">1700.01</Category>
+            <Category value="1701" name="1701-DEP. TRATAMIENTO">1701.01</Category>
+            <Category value="1702" name="1702-DEP DE ELECTROMECANICA">1702.01</Category>
+            <Category value="1703" name="1703-DEP. SOPORTE DE LA GERENCIA TECNICA">1703.01</Category>
+            <Category value="1711" name="1711-DEP. DE EFICIENCIA ENERGETICA">1711.01</Category>
+            <Category value="1721" name="1721-DEP. DE ACUEDUCTO">1721.01</Category>
+            <Category value="1722" name="1722-DEP. DE ALCANTARILLADO">1722.01</Category>
+            <Category value="1800" name="1800-GERENCIA DE PROYECTOS">1800.01</Category>
+            <Category value="1801" name="1801-DEP. DE PERDIDAS TECNICAS">1801.01</Category>
+            <Category value="1802" name="1802-DEP. DE PLANEACION">1802.01</Category>
+            <Category value="1803" name="1803-DEP. DE PERDIDAS COMERCIAL">1803.01</Category>
+            <Category value="1820" name="1820-SUBGER. DE INTERVENTORIA">1820.01</Category>
+            <Category value="1900" name="1900-GERENCIA TIC">1900.01</Category>
+			<Category value="otros" name="otros(CAC,1506,1504)">000.00</Category>
+        </Model>
+		<Model name="Contabilidad" Supervision="Qualification">
+            <Category value="100" name="100-GERENCIA GENERAL">100.01</Category>
+            <Category value="110" name="110-DEP. JURIDICO">110.01</Category>
+            <Category value="200" name="200-GERENCIA CORPORATIVA">200.01</Category>
+            <Category value="300" name="300-DEP. GESTION SOCIAL">300.01</Category>
+            <Category value="400" name="400-GERENCIA ADMINISTRATIVA">400.01</Category>
+            <Category value="410" name="410-DEP. DE COMPRAS">410.01</Category>
+            <Category value="500" name="500-DEP. DE SERVICIOS GENERALES">500.01</Category>
+            <Category value="510" name="510-SUBGER. CONTRATACION PROYECTOS">510.01</Category>
+            <Category value="520" name="520-DEP. DE CONTRATACION DE PROYECTOS">520.01</Category>
+            <Category value="530" name="530-GERENCIA FINANCIERA">530.01</Category>
+            <Category value="540" name="540-DEP. DE CONTABILIDAD">540.01</Category>
+            <Category value="600" name="Positivo">600.01</Category>
+            <Category value="700" name="700-NOMINA">700.01</Category>
+            <Category value="otros" name="otros(CAC-GERENCIA DE RELACIONES INSTITUCIONALES, ....)">000.00</Category>
+        </Model>
+    </Models>
+</EquivalenceInferenceModel>

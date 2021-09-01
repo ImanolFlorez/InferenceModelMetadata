@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InferenceModelConfig>
+	<Models>
+		<Model name="Contabilidad">
+			<Field name="OrgInteresadaRemitente" type="Organization">Doc.DatosRetDisp.Ofiprod</Field>
+			<Field name="OrgInteresadaDestinatario" type="Organization">Doc.DatosRetDisp.Ofiprod</Field>
+			<Field name="DependenciaResponsable" type="Organization">Doc.DatosRetDisp.Ofiprod</Field>
+		</Model>
+		<Model name="PQRS">
+			<Field name="OrgInteresadaRemitente" type="Organization">Doc.DatosRetDisp.Ofiprod</Field>
+			<Field name="OrgInteresadaDestinatario" type="Organization">Doc.DatosRetDisp.Ofiprod</Field>
+			<Field name="DependenciaResponsable" type="Organization">Doc.DatosRetDisp.Ofiprod</Field>
+		</Model>
+	</Models>
+</InferenceModelConfig>
